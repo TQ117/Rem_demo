@@ -1,0 +1,7 @@
+.test{
+    display: flex;
+    color: white;
+}
+.test div{
+    flex: 1
+}

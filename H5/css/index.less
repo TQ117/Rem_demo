@@ -1,0 +1,56 @@
+//首页的样式文件
+@import 'common' ;
+@bacefont:50;
+body{
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background-color: #f2f2f2;
+}
+
+
+.header{
+    width: 15rem;
+    height: 88rem / @bacefont;
+    background-color: orange;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: flex;
+}
+.type{
+    width: 44rem / @bacefont;
+    height: 70rem / @bacefont;
+    background-color: pink;
+    margin: 11rem / @bacefont 25rem / @bacefont 7rem / @bacefont 24rem / @bacefont
+}
+
+.search{
+    flex: 1;
+    background-color: blue;
+    .input{
+        border: 0;
+        height: 66rem / @bacefont;
+        background-color: #fff2cc;
+        width: 100%;
+        border-radius: 50rem / @bacefont;
+    }
+}
+
+.login{
+    width: 75rem / @bacefont;
+    height: 70rem / @bacefont;
+    line-height: 70rem / @bacefont;
+    background-color: yellow;
+    margin: 10rem / @bacefont;
+    font-size: 25rem / @bacefont;
+    text-align: center;
+    color: white
+}
+img{
+    width: 1.093333rem;
+}
